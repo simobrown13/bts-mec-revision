@@ -35,8 +35,6 @@ self.MANIFEST = {
     { id: "u31-05", matiere: "u31", num: "07", title: "Statistique descriptive",       sub: "Moyenne, écart-type, ajustement affine",         file: "content/u31-maths/05-statistique-descriptive.md" },
     { id: "u31-04", matiere: "u31", num: "08", title: "Équations différentielles",     sub: "1er ordre y' = ay + b",                          file: "content/u31-maths/04-equations-differentielles.md" },
     { id: "u31-03", matiere: "u31", num: "09", title: "Calcul intégral",               sub: "Primitives, intégrale, aire, valeur moyenne",    file: "content/u31-maths/03-calcul-integral.md" },
-    { id: "u31-07", matiere: "u31", num: "–",  title: "Probabilités 2",                sub: "⚠ Hors programme officiel — Poisson, loi normale", file: "content/u31-maths/07-probabilites-2.md" },
-    { id: "u31-08", matiere: "u31", num: "–",  title: "Statistique inférentielle",     sub: "⚠ Hors programme officiel — intervalle de confiance", file: "content/u31-maths/08-statistique-inferentielle.md" },
 
     // ---- U32 Physique-Chimie (ordre = programme officiel) ----
     { id: "u32-08", matiere: "u32", num: "★",  title: "Méthode de l'épreuve EXPÉRIMENTALE", sub: "Démarche labo, protocole, incertitudes",          file: "content/u32-physique-chimie/08-demarche-experimentale.md" },
@@ -45,7 +43,5 @@ self.MANIFEST = {
     { id: "u32-04", matiere: "u32", num: "03", title: "Changements d'état & hygrométrie", sub: "Humidité, point de rosée, condensation",       file: "content/u32-physique-chimie/04-hygrometrie-confort.md" },
     { id: "u32-07", matiere: "u32", num: "04", title: "Énergie & puissance",           sub: "Rendement, énergie, kWh",                        file: "content/u32-physique-chimie/07-energetique-dpe.md" },
     { id: "u32-02", matiere: "u32", num: "05", title: "Ondes acoustiques",             sub: "Décibels, isolement, échelle log",               file: "content/u32-physique-chimie/02-acoustique.md" },
-    { id: "u32-05", matiere: "u32", num: "–",  title: "Électricité",                   sub: "⚠ Hors thèmes PC officiels (à vérifier) — U=RI",  file: "content/u32-physique-chimie/05-electricite.md" },
-    { id: "u32-03", matiere: "u32", num: "–",  title: "Mécanique & statique",          sub: "⚠ Hors programme PC (relève de l'épreuve E4)",   file: "content/u32-physique-chimie/03-mecanique-statique.md" },
   ],
 };

@@ -131,18 +131,6 @@ window.DATA = {
         explain: "Les niveaux ne s'additionnent pas arithmétiquement. Deux sources égales : $L_{tot} = L + 3 = 73\\ \\text{dB}$."
       },
       {
-        stem: "Un solide est en équilibre statique. Les conditions sont :",
-        opts: ["$\\sum \\vec{F} = \\vec{0}$ uniquement", "$\\sum \\vec{F} = \\vec{0}$ et $\\sum \\vec{M} = \\vec{0}$", "$\\sum \\vec{M} = \\vec{0}$ uniquement", "La somme des masses est nulle"],
-        answer: 1,
-        explain: "Équilibre = résultante des forces nulle ET somme des moments nulle (pas de translation, pas de rotation)."
-      },
-      {
-        stem: "Une barre de section $S = 5\\ \\text{cm}^2$ subit une traction $F = 10\\ \\text{kN}$. La contrainte $\\sigma$ vaut :",
-        opts: ["$2\\ \\text{MPa}$", "$20\\ \\text{MPa}$", "$50\\ \\text{MPa}$", "$200\\ \\text{MPa}$"],
-        answer: 1,
-        explain: "$\\sigma = \\dfrac{F}{S} = \\dfrac{10\\,000\\ \\text{N}}{5\\times10^{-4}\\ \\text{m}^2} = 2\\times10^{7}\\ \\text{Pa} = 20\\ \\text{MPa}$."
-      },
-      {
         stem: "Un radiateur de $1\\,500\\ \\text{W}$ fonctionne 4 h. L'énergie consommée est :",
         opts: ["$6\\ \\text{kWh}$", "$375\\ \\text{kWh}$", "$1{,}5\\ \\text{kWh}$", "$6\\,000\\ \\text{kWh}$"],
         answer: 0,
@@ -159,18 +147,6 @@ window.DATA = {
         opts: ["Basique", "Acide", "Neutre", "Impossible à déterminer"],
         answer: 1,
         explain: "$\\text{pH} < 7$ → solution acide ; $=7$ neutre ; $>7$ basique. $\\text{pH}=3$ : nettement acide ($[H_3O^+]=10^{-3}\\ \\text{mol/L}$)."
-      },
-      {
-        stem: "Un conducteur de résistance $R = 50\\ \\Omega$ est parcouru par un courant $I = 0{,}2\\ \\text{A}$. La tension à ses bornes vaut :",
-        opts: ["$250\\ \\text{V}$", "$10\\ \\text{V}$", "$0{,}004\\ \\text{V}$", "$100\\ \\text{V}$"],
-        answer: 1,
-        explain: "Loi d'Ohm : $U = R\\,I = 50 \\times 0{,}2 = 10\\ \\text{V}$."
-      },
-      {
-        stem: "Une force $F = 200\\ \\text{N}$ s'applique avec un bras de levier $d = 0{,}3\\ \\text{m}$. Le moment par rapport au point d'appui vaut :",
-        opts: ["$60\\ \\text{N·m}$", "$666\\ \\text{N·m}$", "$200{,}3\\ \\text{N·m}$", "$0{,}6\\ \\text{N·m}$"],
-        answer: 0,
-        explain: "$M = F \\times d = 200 \\times 0{,}3 = 60\\ \\text{N·m}$."
       },
       {
         stem: "Quelle masse d'eau ($M = 18\\ \\text{g/mol}$) correspond à $2\\ \\text{mol}$ ?",
@@ -220,11 +196,7 @@ window.DATA = {
       { q: "Niveau sonore en décibels", a: "$L = 10\\log_{10}\\!\\left(\\dfrac{I}{I_0}\\right)$, avec $I_0 = 10^{-12}\\ \\text{W/m}^2$" },
       { q: "Effet de doubler la puissance acoustique", a: "$+3\\ \\text{dB}$ (échelle logarithmique)" },
       { q: "Addition de deux sources de même niveau $L$", a: "$L_{tot} = L + 3\\ \\text{dB}$" },
-      { q: "Conditions d'équilibre statique d'un solide", a: "$\\sum \\vec{F} = \\vec{0}$  et  $\\sum \\vec{M}_{/A} = \\vec{0}$" },
-      { q: "Moment d'une force par rapport à un point", a: "$M = F \\times d$  (N·m) — $d$ = bras de levier" },
-      { q: "Contrainte normale (traction/compression)", a: "$\\sigma = \\dfrac{F}{S}$  (Pa) — $1\\ \\text{MPa}=10^6\\ \\text{Pa}$" },
-      { q: "Loi d'Ohm", a: "$U = R \\, I$  (V = Ω × A)" },
-      { q: "Puissance et énergie électrique", a: "$P = U I$  (W)  ·  $E = P \\, t$  ·  $1\\ \\text{kWh}=3{,}6\\ \\text{MJ}$" },
+      { q: "Énergie et puissance (rendement)", a: "$E = P \\, t$  ·  rendement $\\eta = \\dfrac{\\text{utile}}{\\text{consommé}}$  ·  $1\\ \\text{kWh}=3{,}6\\ \\text{MJ}$" },
       { q: "Quantité de matière (mole)", a: "$n = \\dfrac{m}{M}$  ·  concentration $C = \\dfrac{n}{V}$" },
       { q: "Définition du pH", a: "$\\text{pH} = -\\log_{10}[H_3O^+]$  ·  acide si $<7$, basique si $>7$" },
       { q: "Corrosion des armatures du béton armé", a: "Carbonatation / chlorures abaissent le pH → l'acier se dépassive et rouille" }
