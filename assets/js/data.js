@@ -80,16 +80,16 @@ window.DATA = {
         explain: "$\\ln$ et $\\exp$ sont réciproques : $\\ln(x) = 2 \\iff x = e^{2} \\approx 7{,}39$."
       },
       {
-        stem: "$X$ suit la loi normale $\\mathcal{N}(\\mu = 100\\,;\\,\\sigma)$. Que vaut $P(X \\leqslant 100)$ ?",
-        opts: ["$0$", "$0{,}5$", "$1$", "Cela dépend de $\\sigma$"],
-        answer: 1,
-        explain: "La loi normale est symétrique autour de sa moyenne $\\mu$. Donc $P(X \\leqslant \\mu) = 0{,}5$, quelle que soit $\\sigma$."
+        stem: "Volume d'une fondation cylindrique de rayon $r = 0{,}3\\ \\text{m}$ et de hauteur $h = 1{,}5\\ \\text{m}$ ?",
+        opts: ["$\\approx 0{,}42\\ \\text{m}^3$", "$\\approx 1{,}41\\ \\text{m}^3$", "$\\approx 0{,}14\\ \\text{m}^3$", "$\\approx 2{,}83\\ \\text{m}^3$"],
+        answer: 0,
+        explain: "Volume d'un cylindre : $V = \\pi r^{2} h = \\pi \\times 0{,}3^{2} \\times 1{,}5 \\approx 0{,}42\\ \\text{m}^3$."
       },
       {
-        stem: "Sur un échantillon de taille $n=100$, la fréquence observée est $f = 0{,}4$. Un intervalle de confiance à 95 % a pour amplitude (demi-largeur) environ :",
-        opts: ["$\\dfrac{1}{\\sqrt{100}} = 0{,}1$", "$\\dfrac{1{,}96}{\\sqrt{100}} \\approx 0{,}2$", "$0{,}4$", "$1{,}96$"],
-        answer: 0,
-        explain: "Intervalle simplifié au programme : $\\left[f - \\frac{1}{\\sqrt{n}}\\,;\\,f + \\frac{1}{\\sqrt{n}}\\right]$, soit ici $\\frac{1}{\\sqrt{100}} = 0{,}1$."
+        stem: "Algorithme : <code>S ← 0 ; Pour i de 1 à 4 Faire S ← S + i</code>. Que vaut $S$ à la fin ?",
+        opts: ["$4$", "$10$", "$24$", "$0$"],
+        answer: 1,
+        explain: "La boucle ajoute 1, 2, 3 puis 4 : $S = 1+2+3+4 = 10$. (On déroule la boucle pas à pas.)"
       },
       {
         stem: "Une primitive de $f(x) = 2x + 3$ est :",
