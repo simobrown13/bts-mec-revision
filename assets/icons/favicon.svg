@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BTS MEC">
+  <rect width="512" height="512" rx="96" fill="#16202b"/>
+  <!-- grille de plan -->
+  <g stroke="#2a3744" stroke-width="2">
+    <path d="M96 0V512M160 0V512M224 0V512M288 0V512M352 0V512M416 0V512"/>
+    <path d="M0 96H512M0 160H512M0 224H512M0 288H512M0 352H512M0 416H512"/>
+  </g>
+  <!-- cartouche -->
+  <rect x="92" y="150" width="328" height="212" rx="14" fill="none" stroke="#c3ccd6" stroke-width="6"/>
+  <line x1="92" y1="300" x2="420" y2="300" stroke="#c3ccd6" stroke-width="4"/>
+  <line x1="256" y1="300" x2="256" y2="362" stroke="#c3ccd6" stroke-width="4"/>
+  <!-- accents matières -->
+  <rect x="92" y="150" width="328" height="14" rx="7" fill="#1f5fa8"/>
+  <rect x="92" y="348" width="328" height="14" rx="7" fill="#c8631c"/>
+  <text x="256" y="262" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="96" font-weight="700" fill="#f8fafb" letter-spacing="2">MEC</text>
+  <text x="174" y="340" text-anchor="middle" font-family="monospace" font-size="34" font-weight="700" fill="#6aa6e6">U31</text>
+  <text x="338" y="340" text-anchor="middle" font-family="monospace" font-size="34" font-weight="700" fill="#e0935a">U32</text>
+</svg>
