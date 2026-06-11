@@ -111,7 +111,7 @@
     main.innerHTML = `
       <div class="page-head">
         <h1>Plan de révision</h1>
-        <p>Épreuves écrites des 23 et 24 juin 2026. Choisis une matière ou un outil.</p>
+        <p>Mardi 23 juin 2026 : oral de maths + épreuve expérimentale de physique-chimie. Commence par la fiche ★ Méthode de chaque matière.</p>
       </div>
       <div class="subjects">${tiles}</div>
 
@@ -131,7 +131,7 @@
       <div class="page-head">
         <a class="crumb" href="#/">← Accueil</a>
         <h1>Fiches de révision</h1>
-        <p>16 fiches synthétiques. Marque-les comme « revue » au fur et à mesure.</p>
+        <p>Commence par la fiche ★ Méthode (oral de maths · épreuve expérimentale de PC). Marque les fiches « revue » au fur et à mesure.</p>
       </div>${blocks}`;
   }
 
@@ -366,12 +366,13 @@
   function viewPlanning() {
     setTab("planning");
     const plan = [
-      { d: "J–12 → J–8", t: "Balayage U31", x: false, desc: "Suites, fonctions, calcul intégral, équations différentielles. 1 fiche + son QCM par jour." },
-      { d: "J–8 → J–5", t: "Probabilités & statistique", x: false, desc: "Proba 1 & 2, statistique descriptive et inférentielle. Refaire les calculs à la calculatrice mode examen." },
-      { d: "J–5 → J–3", t: "Bloc U32 thermique & méca", x: false, desc: "Thermique du bâtiment, acoustique, mécanique/statique. Relier aux notions chantier (R, U, déperditions)." },
-      { d: "J–3 → J–1", t: "U32 chimie & énergie + révision croisée", x: false, desc: "Chimie des matériaux, électricité, DPE. Flashcards en boucle, QCM blanc complet des deux matières." },
-      { d: "Mar. 23 juin · 08:00", t: "U3.2 Physique-Chimie — salle A116 (à confirmer)", x: true, desc: "Jury 1. Se présenter 15 min avant. Calculatrice en mode examen, pièce d'identité, convocation." },
-      { d: "Mar. 23 / Mer. 24 juin", t: "U3.1 Mathématiques — salle L027", x: true, desc: "Jury 1. Vérifier l'horaire exact de passage sur la convocation." },
+      { d: "J–12 → J–9", t: "Maths — méthode de l'ORAL", x: false, desc: "Lire la fiche ★ Méthode. S'entraîner à EXPOSER à voix haute : fonctions, calcul intégral, équations différentielles. Refaire des exos en s'expliquant et en se chronométrant." },
+      { d: "J–9 → J–6", t: "PC — démarche EXPÉRIMENTALE", x: false, desc: "Fiche ★ Méthode + incertitudes. Transferts thermiques (R, U, flux), solutions aqueuses & pH, acoustique. Revoir : protocole, mesures, présentation des résultats." },
+      { d: "J–6 → J–4", t: "Maths — reste du programme", x: false, desc: "Probabilités 1, statistique descriptive, calcul vectoriel. Ne pas oublier algorithmique/SQL et configurations géométriques (aires, volumes), au programme officiel." },
+      { d: "J–4 → J–2", t: "Oral blanc + compte-rendu", x: false, desc: "Maths : tirer un sujet, 1h de prépa puis exposé 15 min à voix haute. PC : s'entraîner à rédiger un compte-rendu et à estimer une incertitude." },
+      { d: "J–1 · lundi 22", t: "Logistique & calculatrice", x: false, desc: "Calculatrice en mode examen, relire les 2 fiches ★ Méthode, préparer convocation + pièce d'identité. Repérer le trajet." },
+      { d: "Mar. 23 juin · 08:00", t: "U3.2 Physique-Chimie — ORALE/EXPÉRIMENTALE 2h", x: true, desc: "Salle A116 (à confirmer) · Jury 1. Arriver à 07:45 (15 min avant). Épreuve expérimentale au laboratoire." },
+      { d: "Mar. 23 juin · 10:40", t: "U3.1 Mathématiques — ORAL 1h35", x: true, desc: "Salle L027 · Jury 1 · 10:40 → 12:15. Arriver à 10:25. 1h préparation + 15 min exposé + 20 min entretien." },
     ];
     const items = plan.map((p) => `
       <div class="tl-item ${p.x ? "is-exam" : ""}">
@@ -382,15 +383,16 @@
     main.innerHTML = `
       <div class="page-head"><a class="crumb" href="#/">← Accueil</a>
         <h1>Planning J–12 → Jour J</h1>
-        <p>Repère indicatif. Les fiches non revues restent à l'accueil.</p></div>
+        <p>Les deux épreuves sont le mardi 23 juin (rien le 24 pour toi) : PC expérimentale à 08:00, puis oral de maths à 10:40.</p></div>
       <div class="timeline">${items}</div>
       <div class="section-label">À ne pas oublier le jour J</div>
       <div class="fiche" style="padding:14px 16px">
         <ul class="markdown" style="margin:0;padding-left:20px">
           <li>Convocation + pièce d'identité</li>
           <li>Calculatrice <strong>en mode examen activé</strong> + calculatrice de secours sans mémoire</li>
-          <li>Stylos, règle, équerre, rapporteur, crayon, gomme</li>
-          <li>Arriver 15 min avant le passage · fléchage vers les salles</li>
+          <li>Stylos, règle, équerre, rapporteur, crayon, gomme · une montre</li>
+          <li><strong>08:00 PC</strong> (salle A116, arrivée 07:45) puis <strong>10:40 maths</strong> (salle L027, arrivée 10:25)</li>
+          <li>Oral maths : penser à <strong>exposer à voix haute</strong> · PC : <strong>sécurité au labo</strong> et noter les mesures avec unités</li>
         </ul>
       </div>`;
   }

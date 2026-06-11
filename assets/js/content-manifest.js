@@ -9,22 +9,23 @@ self.MANIFEST = {
       code: "U3.1",
       nom: "Mathématiques",
       coef: 2,
-      epreuve: "Écrit · mardi 23 / mercredi 24 juin 2026",
-      salle: "L027 / L026",
+      epreuve: "ORAL 1h35 · mar. 23 juin 2026 · 10:40 → 12:15",
+      salle: "L027 · Jury 1",
       cls: "u31",
     },
     u32: {
       code: "U3.2",
       nom: "Physique-Chimie",
       coef: 2,
-      epreuve: "Écrit · mardi 23 juin 2026 · 08:00",
-      salle: "A116 (à confirmer)",
+      epreuve: "EXPÉRIMENTALE 2h · mar. 23 juin 2026 · 08:00",
+      salle: "A116 (à confirmer) · Jury 1",
       cls: "u32",
     },
   },
 
   fiches: [
     // ---- U31 Mathématiques ----
+    { id: "u31-10", matiere: "u31", num: "★",  title: "Méthode de l'épreuve ORALE",     sub: "1h prépa + exposé 15 min + entretien 20 min",     file: "content/u31-maths/10-methode-oral.md" },
     { id: "u31-01", matiere: "u31", num: "01", title: "Suites numériques",            sub: "Arithmétiques, géométriques, intérêts composés", file: "content/u31-maths/01-suites-numeriques.md" },
     { id: "u31-02", matiere: "u31", num: "02", title: "Fonctions d'une variable",      sub: "Dérivation, variations, exp et ln",              file: "content/u31-maths/02-fonctions.md" },
     { id: "u31-03", matiere: "u31", num: "03", title: "Calcul intégral",               sub: "Primitives, intégrale, aire, valeur moyenne",    file: "content/u31-maths/03-calcul-integral.md" },
@@ -36,6 +37,7 @@ self.MANIFEST = {
     { id: "u31-09", matiere: "u31", num: "09", title: "Calcul vectoriel",              sub: "Produit scalaire, géométrie",                    file: "content/u31-maths/09-calcul-vectoriel.md" },
 
     // ---- U32 Physique-Chimie ----
+    { id: "u32-08", matiere: "u32", num: "★",  title: "Méthode de l'épreuve EXPÉRIMENTALE", sub: "Démarche labo, protocole, incertitudes",          file: "content/u32-physique-chimie/08-demarche-experimentale.md" },
     { id: "u32-01", matiere: "u32", num: "01", title: "Thermique du bâtiment",         sub: "Résistance R, coefficient U, déperditions",      file: "content/u32-physique-chimie/01-thermique-batiment.md" },
     { id: "u32-02", matiere: "u32", num: "02", title: "Acoustique du bâtiment",        sub: "Décibels, isolement, échelle log",               file: "content/u32-physique-chimie/02-acoustique.md" },
     { id: "u32-03", matiere: "u32", num: "03", title: "Mécanique & statique",          sub: "Forces, moments, équilibre, contrainte",         file: "content/u32-physique-chimie/03-mecanique-statique.md" },
