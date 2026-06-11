@@ -96,6 +96,30 @@ window.DATA = {
         opts: ["$2$", "$x^2 + 3x$", "$x^2 + 3$", "$2x^2 + 3x$"],
         answer: 1,
         explain: "Primitive terme à terme : $\\int (2x+3)\\,dx = x^2 + 3x + C$. On vérifie en dérivant : $(x^2+3x)' = 2x+3$."
+      },
+      {
+        stem: "Un prix de $120\\ €$ augmente de 15 %. Le nouveau prix est :",
+        opts: ["$135\\ €$", "$138\\ €$", "$18\\ €$", "$102\\ €$"],
+        answer: 1,
+        explain: "Augmenter de 15 % : $\\times 1{,}15$. Donc $120 \\times 1{,}15 = 138\\ €$."
+      },
+      {
+        stem: "En notation scientifique, $0{,}00042$ s'écrit :",
+        opts: ["$4{,}2\\times10^{-4}$", "$42\\times10^{-5}$", "$4{,}2\\times10^{4}$", "$0{,}42\\times10^{-3}$"],
+        answer: 0,
+        explain: "Notation scientifique : $a\\times10^{n}$ avec $1\\leqslant a<10$. Ici $0{,}00042 = 4{,}2\\times10^{-4}$."
+      },
+      {
+        stem: "Une hausse de 20 % suivie d'une baisse de 20 % donne au total :",
+        opts: ["Le prix initial", "$-4\\,\\%$ (96 % du départ)", "$+4\\,\\%$", "$0\\ €$"],
+        answer: 1,
+        explain: "Coefficients successifs : $\\times 1{,}2 \\times 0{,}8 = 0{,}96$, soit une baisse globale de 4 %."
+      },
+      {
+        stem: "Combien de litres dans $2{,}5\\ \\text{m}^3$ ?",
+        opts: ["$25\\ \\text{L}$", "$250\\ \\text{L}$", "$2500\\ \\text{L}$", "$25000\\ \\text{L}$"],
+        answer: 2,
+        explain: "$1\\ \\text{m}^3 = 1000\\ \\text{L}$, donc $2{,}5\\ \\text{m}^3 = 2500\\ \\text{L}$."
       }
     ],
 
@@ -165,6 +189,54 @@ window.DATA = {
         opts: ["L'air devient plus sec", "La vapeur d'eau se condense (buée, gouttelettes)", "La température remonte", "Rien, c'est sans effet"],
         answer: 1,
         explain: "Au point de rosée, l'humidité relative atteint 100 % : la vapeur d'eau excédentaire se condense. D'où la buée sur les vitres froides et les risques de condensation dans les parois."
+      },
+      {
+        stem: "Sur une étiquette, les <b>phrases P</b> (precaution) indiquent :",
+        opts: ["La nature du danger", "Les conseils de prudence", "La composition du produit", "La date de péremption"],
+        answer: 1,
+        explain: "Phrases <b>H</b> (hazard) = nature du danger ; phrases <b>P</b> (precaution) = conseils de prudence. On les lit sur la FDS avant de manipuler."
+      },
+      {
+        stem: "Dans une pile, l'électrode où se produit l'<b>oxydation</b> est :",
+        opts: ["La cathode (pôle +)", "L'anode (pôle −)", "Le pont salin", "L'électrolyte"],
+        answer: 1,
+        explain: "Oxydation = perte d'électrons = <b>anode</b> (pôle −). La réduction se fait à la cathode (pôle +)."
+      },
+      {
+        stem: "Pourquoi l'acier d'un béton armé sain ne rouille-t-il pas ?",
+        opts: ["Le béton est imperméable", "Le pH élevé du béton passive l'acier", "L'acier est inoxydable", "Il n'y a pas d'oxygène"],
+        answer: 1,
+        explain: "Le pH basique du béton sain forme une couche passive protectrice. La carbonatation (CO₂) ou les chlorures abaissent le pH → dépassivation → corrosion."
+      },
+      {
+        stem: "Quel facteur <b>accélère</b> généralement une réaction chimique ?",
+        opts: ["Baisser la température", "Augmenter la température", "Diluer les réactifs", "Réduire la surface de contact"],
+        answer: 1,
+        explain: "Facteurs cinétiques : ↑ température et ↑ concentration accélèrent la réaction. Un catalyseur aussi (sans être consommé)."
+      },
+      {
+        stem: "L'extinction de la chaux ($\\text{CaO} + \\text{H}_2\\text{O}$) est une réaction :",
+        opts: ["Endothermique (absorbe de la chaleur)", "Exothermique (dégage de la chaleur)", "Sans échange thermique", "Photochimique"],
+        answer: 1,
+        explain: "L'extinction de la chaux vive dégage de la chaleur : réaction <b>exothermique</b>."
+      },
+      {
+        stem: "Dans le vide, les ondes électromagnétiques se propagent à environ :",
+        opts: ["$340\\ \\text{m/s}$", "$3\\times10^{8}\\ \\text{m/s}$", "$1500\\ \\text{m/s}$", "Elles ne se propagent pas dans le vide"],
+        answer: 1,
+        explain: "Célérité de la lumière dans le vide : $c \\approx 3\\times10^{8}\\ \\text{m/s}$. (Le son, lui, ne se propage pas dans le vide.)"
+      },
+      {
+        stem: "L'éclairement lumineux se mesure en lux avec un luxmètre. Si on éloigne le capteur de la source, l'éclairement :",
+        opts: ["Augmente", "Diminue", "Reste constant", "Devient négatif"],
+        answer: 1,
+        explain: "$E = \\dfrac{\\Phi}{S}$ : plus on s'éloigne, plus le flux se répartit sur une grande surface, donc l'éclairement <b>diminue</b>."
+      },
+      {
+        stem: "La synthèse <b>additive</b> des couleurs (lumières) combine :",
+        opts: ["Cyan, magenta, jaune", "Rouge, vert, bleu", "Noir et blanc", "Les pigments d'une peinture"],
+        answer: 1,
+        explain: "Additive = lumières <b>R + V + B</b> → blanc. La synthèse soustractive (pigments/filtres) utilise cyan, magenta, jaune."
       }
     ]
   },
@@ -185,7 +257,12 @@ window.DATA = {
       { q: "Solutions de $y' = ay + b$", a: "$y = K e^{ax} - \\dfrac{b}{a}$" },
       { q: "Espérance et variance d'une loi binomiale $\\mathcal{B}(n,p)$", a: "$E(X)=np$  ·  $V(X)=np(1-p)$" },
       { q: "Coefficient directeur de la droite des moindres carrés", a: "$a = \\dfrac{\\text{cov}(x,y)}{V(x)}$, puis $b=\\bar{y}-a\\bar{x}$" },
-      { q: "Produit scalaire dans un repère orthonormé", a: "$\\vec{u}\\cdot\\vec{v} = x x' + y y'$ ; nul si orthogonaux" }
+      { q: "Produit scalaire dans un repère orthonormé", a: "$\\vec{u}\\cdot\\vec{v} = x x' + y y'$ ; nul si orthogonaux" },
+      { q: "Augmenter / diminuer de $t\\%$ (coefficient)", a: "$\\times(1+\\tfrac{t}{100})$ pour une hausse  ·  $\\times(1-\\tfrac{t}{100})$ pour une baisse" },
+      { q: "Notation scientifique d'un nombre", a: "$a\\times10^{n}$ avec $1\\leqslant a<10$ (ex. $13\\,500 = 1{,}35\\times10^{4}$)" },
+      { q: "Conversions d'aire et de volume", a: "$1\\ \\text{m}^2=10^{4}\\ \\text{cm}^2$  ·  $1\\ \\text{m}^3=1000\\ \\text{L}=10^{6}\\ \\text{cm}^3$" },
+      { q: "Aires et volumes utiles (chantier)", a: "Disque $\\pi r^2$  ·  Cylindre $\\pi r^2 h$  ·  Cône $\\tfrac{1}{3}\\pi r^2 h$" },
+      { q: "Requête SQL de base", a: "$\\texttt{SELECT col FROM table WHERE cond ORDER BY col}$" }
     ],
 
     u32: [
@@ -199,7 +276,20 @@ window.DATA = {
       { q: "Énergie et puissance (rendement)", a: "$E = P \\, t$  ·  rendement $\\eta = \\dfrac{\\text{utile}}{\\text{consommé}}$  ·  $1\\ \\text{kWh}=3{,}6\\ \\text{MJ}$" },
       { q: "Quantité de matière (mole)", a: "$n = \\dfrac{m}{M}$  ·  concentration $C = \\dfrac{n}{V}$" },
       { q: "Définition du pH", a: "$\\text{pH} = -\\log_{10}[H_3O^+]$  ·  acide si $<7$, basique si $>7$" },
-      { q: "Corrosion des armatures du béton armé", a: "Carbonatation / chlorures abaissent le pH → l'acier se dépassive et rouille" }
+      { q: "Corrosion des armatures du béton armé", a: "Carbonatation / chlorures abaissent le pH → l'acier se dépassive et rouille" },
+      { q: "Étiquetage : phrases H et P", a: "H (hazard) = nature du danger  ·  P (precaution) = conseils de prudence (lire la FDS)" },
+      { q: "Masse volumique", a: "$\\rho = \\dfrac{m}{V}$  ·  eau $= 1000\\ \\text{kg/m}^3 = 1\\ \\text{g/cm}^3$" },
+      { q: "Dilution d'une solution", a: "$C_1 V_1 = C_2 V_2$ (la quantité de soluté se conserve)" },
+      { q: "Anode et cathode d'une pile", a: "Anode = oxydation (pôle −)  ·  Cathode = réduction (pôle +)" },
+      { q: "Monomère / polymère", a: "Monomère = motif de base répété ; polymère = longue chaîne. Thermoplastique vs thermodurcissable" },
+      { q: "Catalyseur", a: "Accélère la réaction sans être consommé (catalyse homogène / hétérogène / enzymatique)" },
+      { q: "Équation d'état du gaz parfait", a: "$pV = nRT$  ·  $T$ en kelvin ($T = \\theta + 273{,}15$)" },
+      { q: "Dilatation thermique linéaire", a: "$\\Delta L = \\alpha\\, L_0\\, \\Delta\\theta$  (d'où les joints de dilatation)" },
+      { q: "Relation onde : célérité, $\\lambda$, fréquence", a: "$v = \\lambda f$  ·  son ≈ $340\\ \\text{m/s}$ dans l'air" },
+      { q: "Ondes électromagnétiques (vide) & photon", a: "$c \\approx 3\\times10^{8}\\ \\text{m/s}$  ·  $E = h f$ (énergie d'un photon)" },
+      { q: "Éclairement lumineux", a: "$E = \\dfrac{\\Phi}{S}$ (lux), mesuré au luxmètre ; diminue avec la distance" },
+      { q: "Synthèse des couleurs", a: "Additive (lumières) : R+V+B → blanc  ·  Soustractive (pigments/filtres) : cyan, magenta, jaune" },
+      { q: "Lois du rayonnement (corps noir)", a: "Wien (λ d'émission max ↔ T) et Stefan-Boltzmann (puissance $\\propto T^4$) — fournies" }
     ]
   }
 };
