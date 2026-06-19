@@ -28,3 +28,42 @@
 - Identifier les conditions de **corrosion** et proposer une **protection** ; reconnaître la **passivation** ; exploiter des documents sur la corrosion des armatures du béton armé.
 
 > **Réflexe** — Sur la corrosion du béton armé : relier **pH qui baisse (carbonatation/chlorures) → dépassivation → rouille**. C'est l'enchaînement attendu.
+
+## Exemple résolu
+**Dans une pile zinc-cuivre, le zinc s'oxyde ($\text{Zn} \rightarrow \text{Zn}^{2+} + 2e^-$) et le cuivre se dépose ($\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}$). Identifier anode, cathode, polarités et sens des électrons.**
+
+1. **Oxydation = anode** : c'est l'électrode de **zinc** (elle perd des électrons) → **pôle −**.
+2. **Réduction = cathode** : c'est l'électrode de **cuivre** (elle capte des électrons) → **pôle +**.
+3. **Sens des électrons** (dans le circuit extérieur) : de l'**anode (Zn)** vers la **cathode (Cu)**, donc du − vers le +.
+4. **Pont salin** : assure la neutralité des deux solutions et ferme le circuit.
+
+> Mnémo : « RÉD cède » → le réducteur (Zn) est à l'anode.
+
+## À toi de jouer
+
+**Exercice 1.** Dans la demi-équation $\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}$, le $\text{Cu}^{2+}$ est-il oxydant ou réducteur ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Il **capte** des électrons → c'est un **oxydant** (il se réduit en cuivre métallique).
+
+</details>
+
+**Exercice 2.** Pourquoi l'acier d'un béton armé sain ne rouille-t-il pas, et qu'est-ce qui déclenche sa corrosion ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Le **pH basique** du béton sain forme une couche **passive** protectrice. La **carbonatation** (CO₂) ou les **chlorures** abaissent le pH → **dépassivation** → l'acier rouille et le béton éclate.
+
+</details>
+
+**Exercice 3.** Qu'est-ce qu'une « anode sacrificielle » et comment protège-t-elle une structure ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Un métal **plus réducteur** (ex. zinc) relié à la structure : il s'oxyde **à la place** du métal à protéger, qui devient cathode et ne se corrode plus.
+
+</details>

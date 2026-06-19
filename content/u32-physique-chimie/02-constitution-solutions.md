@@ -36,3 +36,39 @@ $$\rho = \dfrac{m}{V}\quad(\text{kg/m}^3\text{ ou g/cm}^3)$$
 - Exploiter la relation pH ↔ $[H_3O^+]$ ; identifier acide/base d'un couple ; apprécier fort/faible par une mesure de pH ; construire un **diagramme de prédominance**.
 
 > **Lien chantier** — pH et solutions interviennent dans la prise du béton, la corrosion des armatures, le choix des solvants.
+
+## Exemple résolu
+**On veut préparer $500\ \text{mL}$ d'une solution de sel à $0{,}2\ \text{mol/L}$. Quelle masse de sel ($M = 58{,}5\ \text{g/mol}$) faut-il peser ?**
+
+1. **Quantité de matière** : $n = C \times V = 0{,}2 \times 0{,}5 = 0{,}1\ \text{mol}$ (attention : $V$ en **litres**).
+2. **Masse** : $m = n \times M = 0{,}1 \times 58{,}5 = \mathbf{5{,}85\ g}$.
+3. **Protocole** : peser 5,85 g, dissoudre dans un peu d'eau, compléter à 500 mL dans une fiole jaugée.
+
+## À toi de jouer
+
+**Exercice 1.** On dissout $0{,}3\ \text{mol}$ de soluté dans $1{,}5\ \text{L}$. Quelle est la concentration ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+$C = \dfrac{n}{V} = \dfrac{0{,}3}{1{,}5} = \mathbf{0{,}2\ mol/L}$.
+
+</details>
+
+**Exercice 2.** Une solution a $\text{pH} = 2$. Quelle est la concentration $[H_3O^+]$ ? La solution est-elle acide ou basique ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+$[H_3O^+] = 10^{-\text{pH}} = 10^{-2} = \mathbf{0{,}01\ mol/L}$. Comme $\text{pH}=2<7$, la solution est **acide**.
+
+</details>
+
+**Exercice 3.** On dilue $20\ \text{mL}$ d'une solution à $0{,}5\ \text{mol/L}$ jusqu'à $100\ \text{mL}$. Quelle est la nouvelle concentration ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+$C_1 V_1 = C_2 V_2 \Rightarrow C_2 = \dfrac{C_1 V_1}{V_2} = \dfrac{0{,}5 \times 20}{100} = \mathbf{0{,}1\ mol/L}$ (dilution par 5).
+
+</details>

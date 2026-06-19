@@ -32,6 +32,43 @@
 
 > **Piège fréquent** — Mélanger cm et m. $1\ \text{m}^2 = 10\,000\ \text{cm}^2$ et $1\ \text{m}^3 = 1\,000\,000\ \text{cm}^3$.
 
-## Exemple
-Une fondation cylindrique de rayon $0{,}3\ \text{m}$ et de hauteur $1{,}5\ \text{m}$ :
-$$V = \pi r^{2} h = \pi \times 0{,}3^{2} \times 1{,}5 \approx 0{,}42\ \text{m}^3 \text{ de béton.}$$
+## Exemple résolu
+**Un pignon est un rectangle de $6\ \text{m}\times 3\ \text{m}$ surmonté d'un triangle de base $6\ \text{m}$ et de hauteur $2\ \text{m}$. Quelle est sa surface à enduire ?**
+
+1. **Décomposer** : rectangle + triangle.
+2. **Rectangle** : $A_1 = 6 \times 3 = 18\ \text{m}^2$.
+3. **Triangle** : $A_2 = \dfrac{6 \times 2}{2} = 6\ \text{m}^2$.
+4. **Total** : $A = 18 + 6 = \mathbf{24\ m^2}$.
+
+> Réflexe enduit : prévoir la quantité = surface × consommation au m² (donnée du sujet).
+
+## À toi de jouer
+
+**Exercice 1.** Volume de béton d'une dalle de $8\ \text{m}\times 5\ \text{m}$ et d'épaisseur $15\ \text{cm}$ ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Convertir l'épaisseur : $15\ \text{cm} = 0{,}15\ \text{m}$.
+$V = L\times l\times h = 8 \times 5 \times 0{,}15 = \mathbf{6\ m^3}$.
+
+</details>
+
+**Exercice 2.** Aire d'un disque de diamètre $d = 1{,}2\ \text{m}$ ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Rayon $r = \tfrac{d}{2} = 0{,}6\ \text{m}$. $A = \pi r^2 = \pi \times 0{,}6^2 = \pi \times 0{,}36 \approx \mathbf{1{,}13\ m^2}$.
+
+</details>
+
+**Exercice 3.** Volume d'un réservoir cylindrique de rayon $0{,}5\ \text{m}$ et de hauteur $2\ \text{m}$, en litres.
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+$V = \pi r^2 h = \pi \times 0{,}5^2 \times 2 = \pi \times 0{,}5 \approx 1{,}57\ \text{m}^3$.
+Or $1\ \text{m}^3 = 1000\ \text{L}$ → $\approx \mathbf{1\,571\ L}$.
+
+</details>

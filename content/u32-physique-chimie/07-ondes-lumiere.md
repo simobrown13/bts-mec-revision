@@ -30,3 +30,41 @@
 - Caractériser des **sources** par leur spectre ; associer longueur d'onde ↔ couleur ; analyser l'effet d'un **filtre** ; déterminer un **éclairement** (luxmètre) ; prévoir les résultats de **synthèse additive/soustractive** et la couleur d'un objet.
 
 > **Réflexe** — Acoustique : penser **logarithme** (les dB ne s'additionnent pas). Couleur : distinguer **synthèse additive** (lumières) et **soustractive** (pigments/filtres).
+
+## Exemple résolu
+**Un atelier comporte 4 machines identiques, chacune produisant $74\ \text{dB}$. Quel est le niveau sonore total quand elles fonctionnent ensemble ?**
+
+1. **Principe** : les décibels **ne s'additionnent pas** arithmétiquement (échelle log). Doubler le nombre de sources égales ajoute **+3 dB**.
+2. **2 machines** : $74 + 3 = 77\ \text{dB}$.
+3. **4 machines** (encore ×2) : $77 + 3 = \mathbf{80\ dB}$.
+
+> Erreur classique à éviter : $4\times74 = 296\ \text{dB}$ n'a aucun sens. On raisonne par **doublements successifs** (+3 dB chacun).
+
+## À toi de jouer
+
+**Exercice 1.** Un son a une fréquence $f = 680\ \text{Hz}$ dans l'air ($v = 340\ \text{m/s}$). Quelle est sa longueur d'onde ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+$v = \lambda f \Rightarrow \lambda = \dfrac{v}{f} = \dfrac{340}{680} = \mathbf{0{,}5\ m}$.
+
+</details>
+
+**Exercice 2.** Deux ventilateurs identiques émettent chacun $60\ \text{dB}$. Niveau total ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Deux sources égales : $L_{tot} = L + 3 = 60 + 3 = \mathbf{63\ dB}$ (et non 120 dB).
+
+</details>
+
+**Exercice 3.** Sous un projecteur, un capteur reçoit un flux de $500\ \text{lm}$ sur une surface de $4\ \text{m}^2$. Quel est l'éclairement (en lux) ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+$E = \dfrac{\Phi}{S} = \dfrac{500}{4} = \mathbf{125\ lux}$. Si on éloigne le capteur, l'éclairement diminue.
+
+</details>

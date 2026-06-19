@@ -3,7 +3,7 @@
    Stratégie : app shell + fiches précachées à l'install ; CDN/polices en
    cache runtime (stale-while-revalidate). Bump CACHE pour forcer la MAJ.
    ========================================================================= */
-const CACHE = "btsmec-v6";
+const CACHE = "btsmec-v7";
 
 importScripts("./assets/js/content-manifest.js"); // -> self.MANIFEST
 

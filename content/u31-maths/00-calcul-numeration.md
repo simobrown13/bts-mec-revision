@@ -33,3 +33,41 @@
 2. **Convertir** les données dans des unités compatibles.
 3. Poser le calcul (pourcentage / proportion / puissance).
 4. **Vérifier l'ordre de grandeur** du résultat avant de conclure.
+
+## Exemple résolu
+**Un devis de $2\,400\ €$ HT subit une remise de 8 %, puis on ajoute la TVA à 20 %. Quel est le prix final ?**
+
+1. **Remise** : $\times(1-0{,}08)=\times0{,}92$ → $2\,400 \times 0{,}92 = 2\,208\ €$ HT.
+2. **TVA** : $\times(1+0{,}20)=\times1{,}20$ → $2\,208 \times 1{,}20 = 2\,649{,}60\ €$ TTC.
+3. **Coefficient global** : $0{,}92 \times 1{,}20 = 1{,}104$, soit $2\,400 \times 1{,}104 = 2\,649{,}60\ €$ — même résultat, on vérifie la cohérence.
+
+> Ordre de grandeur : un peu plus de $2\,400\ €$, c'est plausible (la TVA l'emporte sur la remise).
+
+## À toi de jouer
+
+**Exercice 1.** Un prix passe de $250\ €$ à $290\ €$. Quel est le pourcentage d'augmentation ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Variation relative : $\dfrac{290-250}{250} = \dfrac{40}{250} = 0{,}16 = \mathbf{16\,\%}$.
+
+</details>
+
+**Exercice 2.** Écris $0{,}000\,52$ et $48\,000$ en notation scientifique.
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+$0{,}000\,52 = 5{,}2\times10^{-4}$ ; $48\,000 = 4{,}8\times10^{4}$ (un seul chiffre avant la virgule, $1\leqslant a<10$).
+
+</details>
+
+**Exercice 3.** Sur un plan à l'échelle $1/50$, un mur mesure $7\ \text{cm}$. Quelle est sa longueur réelle ?
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Longueur réelle $= 7\ \text{cm} \times 50 = 350\ \text{cm} = \mathbf{3{,}5\ m}$.
+
+</details>

@@ -59,3 +59,64 @@ ORDER BY prix;
 - Lire l'énoncé : que doit produire l'algorithme / la requête ?
 - Dérouler avec un petit exemple pour vérifier.
 - Soigner la **syntaxe** (point-virgule, mots-clés SQL en clair).
+
+## Exemple résolu
+**Que vaut `P` à la fin, et que calcule cet algorithme ?**
+```
+P ← 1
+Pour i de 1 à 4 Faire
+   P ← P × i
+afficher P
+```
+
+Table de suivi :
+
+| i | P |
+|---|---|
+| 1 | 1 |
+| 2 | 2 |
+| 3 | 6 |
+| 4 | 24 |
+
+→ affiche **24**. L'algorithme calcule le **produit** $1\times2\times3\times4$ (la factorielle $4!$).
+
+## À toi de jouer
+
+**Exercice 1.** Dérouler cet algorithme : que vaut `S` ?
+```
+S ← 0
+Pour i de 1 à 5 Faire
+   S ← S + 2 × i
+```
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+On ajoute $2,4,6,8,10$ : $S = 2+4+6+8+10 = \mathbf{30}$ (somme des entiers pairs de 2 à 10).
+
+</details>
+
+**Exercice 2.** Écris la requête SQL qui affiche le `nom` et le `stock` des articles dont le `stock` est inférieur à 10, dans la table `produits`.
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+```sql
+SELECT nom, stock
+FROM produits
+WHERE stock < 10;
+```
+
+</details>
+
+**Exercice 3.** Que renvoie cette requête ?
+```sql
+SELECT nom FROM clients WHERE ville = 'Lyon' ORDER BY nom;
+```
+
+<details class="corrige">
+<summary>Corrigé</summary>
+
+Les **noms** des clients habitant **Lyon**, triés par ordre **alphabétique** (croissant par défaut).
+
+</details>
